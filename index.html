@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="Screenshot_2024-11-13_215634-removebg-preview.png" alt="">
+        <h1>BuildWithAI Certificates</h1>
+    </div>
+    <div class="vid">
+
+        <video src="Untitled video - Made with Clipchamp.mp4" autoplay controls loop height="40%" width="90%"></video>
+
+    </div>
+    <div class="content">
+    <label for="nameInput">Enter Your Name:</label>
+        <br>
+        <input type="text" id="nameInput" placeholder="Your Name">
+        <button onclick="generateCertificate()">Generate Certificate</button>
+        <button onclick="downloadCertificate()">Download Certificate</button>
+    </div>
+    
+    <!-- Canvas for the certificate -->
+    <canvas id="certificateCanvas" width="800" height="600"></canvas>
+
+    <div class="foot">
+
+        <p>We hope you enjoyed the hackathon, the video, the experience, the ideas, the tech and all our love to foster and better your community experiences and learnings. Please Generate and Download the BuilWithAI Hackathon [8-9 November, 2024]Certificate, remember Name Attribute is draggable just like GDGC dragging you to Upscale 100x. Love from GDGC GGITS TEAM ❤️</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
